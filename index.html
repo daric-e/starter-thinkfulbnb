@@ -22,10 +22,10 @@
       <div class="logo">Thinkfulbnb</div>
       <nav>
         <ul id="menu">
-          <li><a>Stay</a></li>
-          <li><a>About</a></li>
-          <li><a>Ideas</a></li>
-          <li><a>Host</a></li>
+          <li><a href="#stay">Stay</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#ideas">Ideas</a></li>
+          <li><a href="#host">Host</a></li>
         </ul>
       </nav>
     </header>
@@ -57,9 +57,13 @@
             <div>
               <label for="Type">Type:</label>
               <select name="type" id="type" size="1">
-                <option value="House">House</option>
                 <option Value="Apartment">Apartment</option>
-                <option value="Trap House"> Trap House</option>
+                <option value="Barn">Barn</option>
+                <option value="Castle">Castle</option>
+                <option value="Houseboat">Houseboat</option>
+                <option value="Tiny House">Tiny House</option>
+                <option value="Yacht">Yacht</option>
+                <option value="Yurt">Yurt</option>
               </select>
             </div>
             <button type="Search">Search</button>
@@ -95,56 +99,63 @@
       <!-- Ideas -->
       <section id="ideas">
         <h2>Ideas</h2>
-        <h3>Forest retreats</h3>
-        <div class="img-container">
-          <img
-            src="images/forest-retreat.png"
-            alt="Thinkfulbnb - Forest retreat"
-          />
+          <div class="row">
+            <div class="img-container">
+            <h3>Forest retreats</h3>
+              <img
+                src="images/forest-retreat.png"
+                alt="Thinkfulbnb - Forest retreat"
+              />
+          </div>
+          <div class="img-container">
+            <h3>Beaches</h3>
+              <img 
+                src="images/beach-house.png"
+                alt="Thinkfulbnb - Beach house" 
+              />
+          </div>
         </div>
-        <h3>Beaches</h3>
-        <div class="img-container">
-          <img 
-            src="images/beach-house.png"
-            alt="Thinkfulbnb - Beach house" 
-          />
-        </div>
-        <h3>Rustic cabins</h3>
-        <div class="img-container">
-          <img 
-            src="images/cabin.png" 
-            alt="Thinkfulbnb - Cabin" 
+
+        <div class="row">
+          <div class="img-container">
+          <h3>Rustic cabins</h3>
+            <img 
+              src="images/cabin.png" 
+              alt="Thinkfulbnb - Cabin" 
+              />
+          </div>
+          <div class="img-container">
+          <h3>Pet-friendly</h3>
+            <img 
+              src="images/pet-friendly.png" 
+              alt="Thinkfulbnb - Pet-friendly"
             />
-        </div>
-        <h3>Pet-friendly</h3>
-        <div class="img-container">
-          <img 
-            src="images/pet-friendly.png" 
-            alt="Thinkfulbnb - Pet-friendly"
-          />
+          </div>
         </div>
       </section>
 
       <!-- Host -->
       <section id="host" class="alternate-background">
+        <div class="content">
         <h2>Want to Become a Thinkfulbnb Host?</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-          molestie in est id efficitur. Sed hendrerit ut turpis quis dapibus.
-          Nam sit amet iaculis lectus. Aliquam erat volutpat. Praesent rhoncus
-          pellentesque eros in aliquet. Sed accumsan elit lacus, id ultrices
-          libero rutrum vitae.
-        </p>
-        <ul>
-          <li>Mauris in pellentesque ligula.</li>
-          <li>Sed accumsan elit lacus, id ultrices libero rutrum vitae.</li>
-          <li>Nunc vitae ex eget neque pellentesque porttitor.</li>
-          <li>Cras mollis lorem sagittis sapien imperdiet blandit. Vivamus.</li>
-          <li>
-            Donec vehicula ipsum nisi, eu consectetur leo feugiat et. Fusce eget
-            hendrerit mauris.
-          </li>
-        </ul>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+            molestie in est id efficitur. Sed hendrerit ut turpis quis dapibus.
+            Nam sit amet iaculis lectus. Aliquam erat volutpat. Praesent rhoncus
+            pellentesque eros in aliquet. Sed accumsan elit lacus, id ultrices
+            libero rutrum vitae.
+          </p>
+          <ul>
+            <li>Mauris in pellentesque ligula.</li>
+            <li>Sed accumsan elit lacus, id ultrices libero rutrum vitae.</li>
+            <li>Nunc vitae ex eget neque pellentesque porttitor.</li>
+            <li>Cras mollis lorem sagittis sapien imperdiet blandit. Vivamus.</li>
+            <li>
+              Donec vehicula ipsum nisi, eu consectetur leo feugiat et. Fusce eget
+              hendrerit mauris.
+            </li>
+          </ul>
+        </div>
         <div class="img-container">
         <img 
           src="images/become-a-host.png" 

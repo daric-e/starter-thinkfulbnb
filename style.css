@@ -124,7 +124,15 @@ form div {
   margin-bottom: 20px;
 }
 
-.img-container img {
+#about .img-container img {
+  width: 100%;
+}
+
+#ideas .img-container img {
+  width: 100%;
+}
+
+#host .img-container img {
   width: 100%;
 }
 
@@ -143,17 +151,14 @@ footer p {
 /* -------  Media Query ------- */
 @media all and (min-width: 480px){
   header {
-    background-color: #383fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
   .logo {
     font-size: 40px;
-    color: rgb(156, 231, 17);
   }
   form {
-    border: 2px solid #ff38bd;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -171,9 +176,8 @@ footer p {
     width: 100%;
   }
   form button {
-    background-color: #a30894;
-    padding: 0;
-    width: 20%;
+    padding: 5;
+    width: 15%;
     font: 10px
   }
   #about > div {
@@ -182,10 +186,31 @@ footer p {
     align-items: center;
   }
   #about .img-container{
-    width: 100%;
+  width: 100%;
   }
-  
-  #ideas .img-container {
+
+  #ideas .row {
     display: flex;
-  } 
+    flex-direction: row;
+  }
+
+  #ideas .img-container {
+  width: 50%;
+  padding: 10px;
+  }
+
+  #host {
+    display: flex;
+    align-items: center;
+  }
+
+  #host .content {
+    width: 100%;
+    padding: 10px;
+  }
+
+  #host .img-container {
+    width: 100%;
+    padding: 10px;
+  }
 }
