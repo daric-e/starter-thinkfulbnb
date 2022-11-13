@@ -151,7 +151,6 @@ footer p {
 /* -------  Media Query ------- */
 @media all and (min-width: 480px){
   header {
-    background-color: #ff38e8;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -177,7 +176,6 @@ footer p {
     width: 100%;
   }
   form button {
-    background-color: #38ff67;
     padding: 5;
     width: 25%;
     font: 10px
